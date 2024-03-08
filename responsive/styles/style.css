@@ -1,0 +1,32 @@
+/* nav style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    width:  243px;
+    height: 52px;
+    top: 85px;
+    left: 120px;
+    font-weight: 700px;
+    font-size: 24px;
+    color: rgb(58, 58, 58);
+
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a{
+    text-decoration: none;
+}
