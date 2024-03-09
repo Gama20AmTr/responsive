@@ -17,7 +17,7 @@ nav {
 
 }
 
-nav>ul {
+nav > ul {
     display: flex;
     align-items: center;
 }
@@ -267,11 +267,77 @@ footer {
     padding-left: 570px;
     padding-right: 589px;
 }
-.footer-list{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 550px;    
+
+.footer-second-description{
+    padding-left: 620px;
+    width: 120px;
+    height: 20px;
 }
-footer  li{
+
+footer li{
+    list-style: none;
     
+}
+
+footer .footer-list ul {
+    display: flex;
+    gap: 20px;
+    padding-left: 615px;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-title {
+        font-size: 16px;
+    }
+    .heading {
+        font-size: 24px;
+    }
+    .para {
+        font-size: 12px;
+    }
+    .btn-primary {
+        width: 130px;
+        height: 36px;
+        font-size: 12px;
+    }
+    .collage-head {
+        font-size: 16px;
+    }
+    .collage-price {
+        font-size: 14px;
+    }
+    .star,
+    .collage-rate {
+        font-size: 12px;
+    }
+    .collage-description {
+        font-size: 10px;
+    }
+    .see-more {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-secondary {
+        font-size: 12px;
+    }
+    .second-section-text-division-header {
+        font-size: 20px;
+    }
+    .second-section-text-division-paragraph {
+        font-size: 12px;
+    }
+    .join-now {
+        width: 130px;
+        height: 36px;
+        font-size: 12px;
+    }
+    .footer-header {
+        font-size: 18px;
+    }
+    .footer-decription {
+        font-size: 10px;
+    }
+    .footer-second-description {
+        font-size: 12px;
+    }
 }
