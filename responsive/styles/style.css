@@ -1,13 +1,13 @@
 /* nav style */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-title{
-    width:  243px;
+.nav-title {
+    width: 243px;
     height: 52px;
     top: 85px;
     left: 120px;
@@ -17,16 +17,261 @@ nav{
 
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 30px;
+
 }
 
-nav a{
+nav a {
     text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+/* div stle of header */
+.division {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    width: 580px;
+    height: 130px;
+    top: 285px;
+    left: 120px;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: left;
+}
+
+.para {
+    width: 500px;
+    height: 60px;
+    top: 434px;
+    left: 120px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+}
+
+.btn-primary {
+    width: 196px;
+    height: 44px;
+    top: 511px;
+    left: 120px;
+    background-color: rgb(224, 44, 109);
+    border-radius: 41px;
+    padding: 10px 24px 10px 24px;
+    color: white;
+    text-decoration-color: white;
+}
+
+.second-div {
+    border-image: url('../images/Circle\ design.svg');
+    border-block-width: 470px;
+    height: 470px;
+    left: 835px;
+    background-position: 55%;
+}
+
+.second-division>ul {
+    list-style: none;
+    display: flex;
+    width: 1110px;
+    height: 110px;
+    top: 720px;
+    left: 165px;
+    gap: 60px;
+    margin-left: 165px;
+}
+
+/* main style   */
+
+.main-section {
+    width: 260px;
+    height: 70px;
+
+    margin-left: 585px;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: left;
+    padding-top: 80px;
+    color: rgb(58, 58, 58);
+}
+
+.collage-division {
+    width: 500px;
+    height: 476px;
+}
+
+.collage-grid {
+    display: flex;
+    margin-left: 190px;
+    gap: 30px;
+
+}
+
+.collage-division-row {
+
+    display: flex;
+    margin-left: 190px;
+    gap: 30px;
+
+}
+
+.collage-division-coloumn {
+    display: flex;
+    margin-left: 190px;
+    gap: 30px;
+}
+
+.collage-head {
+    width: 200px;
+    height: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(24, 25, 31);
+}
+
+.collage-price {
+    width: 60px;
+    height: 20px;
+    font-weight: 300;
+    font-size: 24px;
+    color: rgb(0, 0, 87);
+}
+
+.star {
+    display: flex;
+    width: 10px;
+    height: 10px;
+
+    align-items: center;
+    gap: 0px;
+    size: 5px;
+}
+
+.collage-rate {
+    width: 25px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.collage-description {
+    width: 196px;
+    height: 61px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(120, 120, 133);
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: 1225px;
+    margin-right: 50px;
+}
+
+.btn-secondary {
+    width: 99px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: none;
+    border: none;
+    color: rgb(224, 44, 109, 0.87);
+    background-color: #fff;
+}
+
+.second-section {
+    display: flex;
+    width: 1110px;
+    height: 270px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.second-section-text-division {
+    margin-left: 90px;
+}
+
+.second-section-text-division-header {
+    width: 600px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.second-section-text-division-paragraph {
+    width: 400px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 16px;
+    text-align: left;
+    color: rgb(108, 108, 108);
+}
+
+.join-now {
+    width: 155px;
+    height: 44px;
+    margin-top: 16px;
+    background-color: rgb(224, 44, 109);
+    border-radius: none;
+    padding: 10px 24px 10px 24px;
+    color: white;
+    text-decoration-color: white;
+}
+
+
+/* Footer style */
+footer {
+    background-color: gray;
+    gap: 3px;
+
+}
+.footer-division{
+    width: 300px;
+    height: 400px;
+}
+.footer-header {
+    width: 240px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    padding-left: 598px;
+    padding-right: 598px;
+    padding-top: 30px;
+    color: black
+}
+
+.footer-decription {
+    width: 260px;
+    height: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding-left: 570px;
+    padding-right: 589px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 550px;    
+}
+footer  li{
+    
 }
